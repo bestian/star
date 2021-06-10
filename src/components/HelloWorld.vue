@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <svg height="400" width="400">
-      <circle v-for = "i in [0,1,2,3,4,5,6,7,8,9]" :key="i" :cx="50* Math.cos(3.14 * i / 5) + 200" :cy="50 * Math.sin(3.14 * i / 5) + 200" r="4" stroke="black" stroke-width="3" fill="red" />
+      <circle v-for = "i in [0,1,2,3,4,5,6,7,8,9]" :key="i" :cx="100* Math.cos(3.14 * i / 5) + 200" :cy="100 * Math.sin(3.14 * i / 5) + 200" r="4" stroke="black" stroke-width="3" fill="red" />
     </svg>
   </div>
 </template>
