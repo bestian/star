@@ -25,4 +25,8 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.cpw_container {
+  display: inline-block;
+}
 </style>
